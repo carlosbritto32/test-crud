@@ -1,0 +1,68 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-inside {
+  background: #f2f2f2;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+}
+
+.modal-inside .form {
+  font-size: 18px;
+  margin-top: 60px;
+  display: grid;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+.modal-inside .form input {
+  width: 100%;
+  height: 21px;
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+
+.modal-inside .form input:last-child {
+  width: 100%;
+  height: 35px;
+  border: none;
+  background-color: #764af1;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.modal-inside .form select {
+  width: 100%;
+  height: 25px;
+  border-radius: 7px;
+}
+
+.modal-inside button {
+  font-size: 16px;
+  font-weight: bold;
+  width: 60px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #764af1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-open {
+  display: grid;
+}
